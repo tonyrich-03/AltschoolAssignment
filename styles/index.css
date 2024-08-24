@@ -1,0 +1,284 @@
+/* styling of universal selector */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* styling of body */
+body {
+  overflow: auto;
+}
+
+/* styling of All a tags */
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav a{
+  color: #fff;
+}
+
+.nav {
+  width: 100%;
+  background-color: #000000b6;
+  position: sticky;
+  top: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999;
+}
+
+.illustrate-container::-webkit-scrollbar,
+.form-section::-webkit-scrollbar {
+    display: none;
+}
+
+/* styling of signup-container */
+.signup-container {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+/* sSTYLING OF THE ILLUSTRATION */
+.illustrate-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  padding: 4rem 1rem 1rem 1rem;
+  width: 100%;
+  margin: 0 auto;
+  overflow-y: auto;
+  background-color: rgba(177, 172, 172, 0.192);
+}
+
+/* styling of illustrate-container illustrate-image */
+.illustrate-container .illustrate-image {
+  text-align: center;
+  width: 100%;
+}
+
+/* .illustrate-container illustrate-image img*/
+.illustrate-container .illustrate-image img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* styling of header-text */
+.header-text {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* styling of header-text h1{
+ */
+.header-text h1 {
+  font-size: 3vw;
+  max-width: 65%;
+  text-align: center;
+}
+
+/* styling of icon-links nav */
+.icon-links .nav-icon {
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* styling of tel-num */
+.tel-num {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  
+}
+.tel-num a {
+  color:black;
+}
+
+.copyright{
+  margin: 0 auto;
+}
+
+.copyright p{
+  font-size: 15px;
+}
+/* Styling back to first page */
+.class-p {
+  text-decoration: underline; 
+}
+/* STYLING OF THE FORM */
+.form-section {
+  width: 100%;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* styling of sign-text  */
+.sign-text {
+  width: 100%;
+  text-align: right;
+  font-size: 20px;
+}
+
+/* styling of sign-text p a  */
+.sign-text p a {
+  color: blue;
+}
+
+/* styling of form-container  */
+.form-container {
+  margin-top: 40px;
+}
+
+/* styling of form-container h2  */
+.form-container h2 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+/* styling of form-container p  */
+.form-container p {
+  color: gray;
+  font-size: 20px;
+}
+
+/* styling of form-container form  */
+.form-container form {
+  margin-top: 10px;
+}
+
+/* styling of form-row  */
+.form-row {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* styling of form group */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* styling of form-group label */
+.form-group label {
+  font-size: 2vw;
+}
+
+/* styling of form-group input & styling of form-group select */
+.form-group input,
+.form-group select {
+  padding: 1.5vw;
+  width: 100%;
+  background-color: rgba(189, 184, 184, 0.342);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+/* styling of form-group input:hover & styling of form-group select:hover */
+.form-group input:hover,
+.form-group select:hover {
+    border: 2px solid rgba(0, 0, 255, 0.555);
+    outline: none;
+}
+.submit-btn:hover {
+  background-color: #05305f;
+}
+
+/* styling of terms */
+.terms {
+  margin-top: 30px;
+}
+
+/* styling of terms p */
+.terms p {
+  font-size: 20px;
+}
+
+/* styling of terms p a */
+.terms p a {
+  text-decoration: underline;
+  color: blue;
+}
+
+/* styling pf form-btn */
+.form-btn {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* styling of form-btn button */
+.form-btn button {
+  padding: 20px;
+  width: 100%;
+  background-color: #2980b9;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+}
+/*element selector*/
+.my-class,.styles-class {
+  color: red;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(26, 26, 68);
+}
+.my-class2,.styles-class2 {
+  color: rgb(90, 88, 88);
+    font-size: 20px;
+    background-color: rgb(117, 140, 240);
+    padding : 10px;
+    text-align: center;
+  }
+  /*id selector*/
+#style {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: rgb(117, 140, 240);  
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: rgb(161, 184, 231);
+  padding: right;
+  border: 1px solid black;
+}
+footer {
+  margin-top: 20px;
+  text-align: center;
+  background-color: rgb(248, 248, 242); 
+}
+/*class selector*/
+.side-corner,.side-corner2,.side-corner3 {
+  position: side-corner;
+  margin-left: 550px;
+  top: 0px;
+  right: 0px;
+  padding: 1px; 
+}

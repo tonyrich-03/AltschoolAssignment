@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>media.html</title>
+    <!--link external styles-->
+    <link href="./styles/index.css" rel="stylesheet" />
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+  </head>
+  <body>
+    <nav class="nav">
+      <a href="./table.html">Asignment 2 on Table.html AltSchool Africa.</a>
+    </nav>
+    <header>
+      <h1 class="my-class">Media.html assignment 2 about me in Russia</h1>
+      <hr />
+      <h2 class="my-class2">
+        <i>
+          AltSchool Africa, Karatu Cohort 2024
+          <br />
+          Efekomwan Anthony Oriakhi
+          <br />
+          ALT/SOE/024/0012
+          <br />
+          Frontend Engineering, School of Engineering
+        </i>
+      </h2>
+      <hr />
+    </header>
+    <main>
+      <h3>Picture of Anthony after Church</h3>
+      <!-- For responsive images, use srcset and sizes -->
+      <picture title="Anthony picture after church">
+        <img src="./image/Anthony picture 2.jpg" alt="Anthony picture 2" />
+        <source
+            media="(min-width: 800px)"
+            srcset="/images/-360.jpg 360w,
+               /images/Anthony picture 2.jpg 720w,
+              /images/Anthony picture 2-1440.jpg 1440w"
+            sizes="33.3vw"
+          />
+        <source
+            srcset="/images/Anthony picture 2-720.jpg 2x,
+               /images/Anthony picture 2-360.jpg 1x"
+          />
+      </picture>
+      <label>At the Russian Airport</label><br>
+      <picture title="Absolute url of my avatar Gihub picture" class="side-corner">
+          <source
+             media="(min-width: 800px)"
+              srcset="/images/My avatars picture-360.jpg 360w,
+                    /images/My avatars picture-720.jpg 720w,
+                    /images/My avatars picture-1440.jpg 1440w"
+              sizes="33.3vw"
+           />
+          <source
+             srcset="/images/My avatars picture-720.jpg 2x,
+                    /images/My avatars picture-360.jpg 1x"
+           />
+         <img src="https://avatars.githubusercontent.com/u/133792137?v=4" alt="My avatar Github picture"/>
+      </picture>
+     <h3>At a beach Party</h3>
+      <picture title="beach party">
+        <img src="./image/beach party.jpg" alt="At a beach party" />
+        <source
+            media="(min-width: 800px)"
+            srcset="/images/-360.jpg 360w,
+               /images/beach party-720.jpg 720w,
+              /images/beach party-1440.jpg 1440w"
+            sizes="33.3vw"
+          />
+        <source
+            srcset="/images/beach party-720.jpg 2x,
+               /images/beach party-360.jpg 1x"
+          />
+         </picture>
+         <label>Autumn in Russia</label>
+      <picture title="A picture in Autumn, Russia " class="side-corner2">
+         <source
+             media="(min-width: 800px)"
+             srcset="/images/My picture-360.jpg 360w,
+                /images/My picture-720.jpg 720w,
+               /images/My picture-1440.jpg 1440w"
+             sizes="33.3vw"
+           />
+         <source
+             srcset="/images/My picture-720.jpg 2x,
+                /images/My picture-360.jpg 1x"
+           />
+          <img src="./image/My picture.jpg" alt="My picture" />
+      </picture>
+      <h3>Video of Anthony in winter,<br />Tag with Various Attributes.</h3>
+      <video controls autoplay loop muted preload="auto" crossorigin="anonymous">
+         <source src="./image/Anthony winter video.mp4" type="video/mp4" />
+         <source src="videofile.webm" type="video/webm" />
+         <track src="english" kind="subtitles" srclang="en" label="english" />
+      </video>
+      <label>Video of Anthony at the mall, Tag with Various Attributes.</label><br>
+        <video controls autoplay loop muted preload="auto" crossorigin="anonymous" class="side-corner3">
+        <source src="./image/Anthony at the Mall.mp4" type="video/mp4" />
+        <source src="videofile.webm" type="video/webm" />
+        <track src="english" kind="subtitles" srclang="en" label="english" />
+        </video>
+        <br />
+      <h3>Audio of my Goal Tag with Various Attributes</h3>
+        <audio controls autoplay loop muted preload="auto" crossorigin="anonymous">
+        <source src="./image/Anthony Goal.opus" type="audio/mpeg" />
+        <source src="audiofile.ogg" type="audio/ogg" />
+        </audio
+      ><br />
+      <h3>Audio of a friend Tag with Various Attributes</h3>
+      <audio controls autoplay loop muted preload="auto" crossorigin="anonymous">
+      <source src="./image/Audio of a friend.opus" type="audio/mpeg" />
+      <source src="audiofile.ogg" type="audio/ogg" />
+      </audio>
+      <br />
+      <h3>Iframe of my first assignmemt at AltSchool Africa</h3>
+      <iframe src="http://127.0.0.1:5501/Assets/index.html" allow="camera; microphone"
+       title="My first assignment at AltSchool Africa" width="300px" height="150px">
+       </iframe>
+      <br />
+      <a href="#">Back to Top</a>
+    </main>
+    <br />
+    <footer>
+      <b><i>&copy 2024 Efekomwan Anthony Oriakhi, All rights reserved.</i></b>
+    </footer>
+    </body>
+</html>
